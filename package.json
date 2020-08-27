@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node build/server.js",
     "build": "tsc",
     "postinstall": "yarn run build",
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
